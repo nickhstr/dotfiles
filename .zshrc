@@ -2,7 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/nickhstr/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
@@ -102,4 +102,4 @@ export NVM_DIR="$HOME/.nvm"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 export MANPATH="/usr/local/opt/findutils/share/man:$MANPATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-alias ls='ls --color=auto'
+# alias ls='ls --color=auto'
