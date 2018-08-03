@@ -102,4 +102,4 @@ export NVM_DIR="$HOME/.nvm"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 export MANPATH="/usr/local/opt/findutils/share/man:$MANPATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-# alias ls='ls --color=auto'
+alias ls='ls --color=auto'
