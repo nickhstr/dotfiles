@@ -2,10 +2,14 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=~/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
+# Go path stuff
+# Override default GOROOT when installing Go with Brew
+export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -87,10 +91,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim='mvim -v'
+alias vi='mvim -v'
 alias nerf='cd ~/twc/web-nerf-localsuite && HOST=web.dev.weather.com yarn dev'
 alias ndb='cd ~/twc/web-nerf-localsuite && HOST=web.dev.weather.com yarn debug'
-alias localpi='~/local_pi.sh'
-alias remotepi='~/remote_pi.sh'
+alias localpi='~/pi/local_pi.sh'
+alias remotepi='~/pi/remote_pi.sh'
 
 DEFAULT_USER=`whoami`
 
