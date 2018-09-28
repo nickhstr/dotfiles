@@ -1,7 +1,7 @@
 [credential]
 	helper = osxkeychain
 [user]
-	name = Nick Hester
+	name = nickhstr
 	email = nickhstr@gmail.com
 [filter "lfs"]
 	clean = git-lfs clean %f
