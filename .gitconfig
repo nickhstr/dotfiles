@@ -1,3 +1,5 @@
+[credential]
+	helper = osxkeychain
 [user]
 	name = Nick Hester
 	email = nickhstr@gmail.com
@@ -58,3 +60,5 @@
   linenumber = normal
 [core]
 	editor = mvim -v
+[pager]
+	branch = false
