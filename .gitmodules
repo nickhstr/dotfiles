@@ -1,0 +1,9 @@
+[submodule ".oh-my-zsh/themes/spaceship-prompt"]
+	path = .oh-my-zsh/themes/spaceship-prompt
+	url = https://github.com/denysdovhan/spaceship-prompt.git
+[submodule ".oh-my-zsh/themes/pure"]
+	path = .oh-my-zsh/themes/pure
+	url = https://github.com/sindresorhus/pure.git
+[submodule ".oh-my-zsh/themes/hyperzsh"]
+	path = .oh-my-zsh/themes/hyperzsh
+	url = https://github.com/tylerreckart/hyperzsh.git

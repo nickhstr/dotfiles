@@ -14,7 +14,45 @@ export PATH=$PATH:$GOROOT/bin
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+
+# Needed for Pure theme
+# ZSH_THEME=""
+
+# ZSH_THEME="agnoster"
+
+# Spaceship Theme
+ZSH_THEME="spaceship"
+SPACESHIP_DIR_COLOR=cyan
+SPACESHIP_PROMPT_ADD_NEWLINE=false
+SPACESHIP_PROMPT_SEPARATE_LINE=false
+SPACESHIP_GIT_BRANCH_COLOR=green
+SPACESHIP_NODE_SHOW=false
+SPACESHIP_GOLANG_SHOW=false
+SPACESHIP_PACKAGE_SHOW=false
+SPACESHIP_DOCKER_SHOW=false
+SPACESHIP_RUBY_SHOW=false
+SPACESHIP_EMBER_SHOW=false
+SPACESHIP_ELM_SHOW=false
+SPACESHIP_ELIXIR_SHOW=false
+SPACESHIP_XCODE_SHOW_LOCAL=false
+SPACESHIP_XCODE_SHOW_GLOBAL=false
+SPACESHIP_SWIFT_SHOW_LOCAL=false
+SPACESHIP_SWIFT_SHOW_GLOBAL=false
+SPACESHIP_PHP_SHOW=false
+SPACESHIP_RUST_SHOW=false
+SPACESHIP_HASKELL_SHOW=false
+SPACESHIP_JULIA_SHOW=false
+SPACESHIP_AWS_SHOW=false
+SPACESHIP_VENV_SHOW=false
+SPACESHIP_CONDA_SHOW=false
+SPACESHIP_PYENV_SHOW=false
+SPACESHIP_DOTNET_SHOW=false
+SPACESHIP_KUBECTL_SHOW=false
+
+# ZSH_THEME="oxide"
+
+# Hyperzsh theme
+# ZSH_THEME="hyperzsh"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -61,6 +99,10 @@ ZSH_THEME="agnoster"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+
+# Load the Pure theme
+# autoload -U promptinit; promptinit
+# prompt pure
 
 # User configuration
 
