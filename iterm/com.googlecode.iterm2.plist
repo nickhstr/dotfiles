@@ -390,7 +390,7 @@
 	<key>HideTab</key>
 	<false/>
 	<key>HideTabCloseButton</key>
-	<true/>
+	<false/>
 	<key>HideTabNumber</key>
 	<true/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
@@ -399,6 +399,10 @@
 	<false/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
+	<key>MinimalTabStyleBackgroundColorDifference</key>
+	<real>0.029999999329447746</real>
+	<key>MinimalTabStyleOutlineStrength</key>
+	<real>0.019999999552965164</real>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/dotfiles/iterm</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
@@ -444,7 +448,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>530 476 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>669 516 814 486 0 0 1680 1027 </string>
+	<string>498 493 814 486 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>211 61 1266 904 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -774,12 +778,16 @@
 			<false/>
 			<key>Foreground Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.89729100465774536</real>
+				<real>0.9137254901960784</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.89727580547332764</real>
+				<real>0.91764705882352937</real>
 				<key>Red Component</key>
-				<real>0.89730262756347656</real>
+				<real>0.91764705882352937</real>
 			</dict>
 			<key>Guid</key>
 			<string>AB2F7150-38A1-4EC0-94B6-DA1F80B7A18D</string>
@@ -1172,7 +1180,7 @@
 		<array>
 			<string>session.jobName</string>
 			<string>session.id</string>
-			<string>session.tmuxStatusLeft</string>
+			<string>session.badge</string>
 			<string>session.profileName</string>
 			<string>session.name</string>
 			<string>session.terminalIconName</string>
@@ -1193,6 +1201,7 @@
 			<string>session.autoName</string>
 			<string>session.terminalWindowName</string>
 			<string>iterm2</string>
+			<string>session.tmuxStatusLeft</string>
 			<string>session.autoNameFormat</string>
 			<string>session.jobPid</string>
 			<string>session.lastCommand</string>
@@ -1200,52 +1209,53 @@
 			<string>session.pid</string>
 			<string>session.presentationName</string>
 			<string>session.columns</string>
-			<string>session.badge</string>
 		</array>
 		<key>16</key>
 		<array>
-			<string>titleOverride</string>
-			<string>currentTab.currentSession.session.autoNameFormat</string>
-			<string>currentTab.currentSession.session.columns</string>
-			<string>currentTab.currentSession.session.terminalWindowName</string>
-			<string>currentTab</string>
-			<string>currentTab.currentSession</string>
-			<string>currentTab.currentSession.session.pid</string>
-			<string>currentTab.currentSession.session.autoName</string>
-			<string>currentTab.currentSession.session.terminalIconName</string>
-			<string>currentTab.currentSession.session.presentationName</string>
-			<string>currentTab.currentSession.session.name</string>
+			<string>currentTab.currentSession.session.mouseReportingMode</string>
 			<string>currentTab.currentSession.session.tty</string>
 			<string>currentTab.currentSession.session.username</string>
-			<string>currentTab.currentSession.session.jobName</string>
-			<string>currentTab.currentSession.session.rows</string>
-			<string>iterm2</string>
+			<string>currentTab.currentSession.session.name</string>
 			<string>currentTab.currentSession.session.termid</string>
 			<string>currentTab.currentSession.session.hostname</string>
+			<string>currentTab</string>
+			<string>currentTab.currentSession.session.pid</string>
 			<string>currentTab.currentSession.session.path</string>
+			<string>currentTab.currentSession</string>
+			<string>titleOverride</string>
+			<string>currentTab.currentSession.session.terminalWindowName</string>
+			<string>currentTab.currentSession.session.autoName</string>
 			<string>currentTab.currentSession.session.jobPid</string>
+			<string>currentTab.currentSession.session.autoNameFormat</string>
+			<string>iterm2</string>
+			<string>currentTab.currentSession.session.presentationName</string>
+			<string>currentTab.currentSession.session.columns</string>
+			<string>currentTab.currentSession.session.terminalIconName</string>
+			<string>currentTab.currentSession.session.jobName</string>
+			<string>currentTab.currentSession.session.rows</string>
 		</array>
 		<key>2</key>
 		<array>
-			<string>currentSession</string>
-			<string>titleOverride</string>
-			<string>currentSession.session.hostname</string>
+			<string>currentSession.session.jobName</string>
 			<string>currentSession.session.termid</string>
 			<string>currentSession.session.pid</string>
-			<string>currentSession.session.autoName</string>
+			<string>currentSession.session.hostname</string>
 			<string>currentSession.session.name</string>
-			<string>currentSession.session.autoNameFormat</string>
-			<string>currentSession.session.path</string>
-			<string>currentSession.session.rows</string>
-			<string>currentSession.session.terminalWindowName</string>
-			<string>currentSession.session.jobName</string>
-			<string>currentSession.session.tty</string>
-			<string>iterm2</string>
-			<string>tmuxWindow</string>
 			<string>currentSession.session.presentationName</string>
-			<string>currentSession.session.terminalIconName</string>
 			<string>currentSession.session.jobPid</string>
 			<string>currentSession.session.username</string>
+			<string>currentSession.session.mouseReportingMode</string>
+			<string>currentSession.session.terminalIconName</string>
+			<string>currentSession.session.rows</string>
+			<string>titleOverride</string>
+			<string>currentSession.session.terminalWindowName</string>
+			<string>currentSession.session.autoNameFormat</string>
+			<string>currentSession.session.path</string>
+			<string>currentSession.session.tty</string>
+			<string>iterm2</string>
+			<string>currentSession.session.autoName</string>
+			<string>tmuxWindow</string>
+			<string>currentSession</string>
 			<string>currentSession.session.columns</string>
 		</array>
 		<key>4</key>
@@ -1329,7 +1339,7 @@
 	<key>StatusBarPosition</key>
 	<integer>0</integer>
 	<key>StretchTabsToFillBar</key>
-	<false/>
+	<true/>
 	<key>TabStyle</key>
 	<integer>1</integer>
 	<key>TabStyleWithAutomaticOption</key>
