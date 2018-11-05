@@ -448,9 +448,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>530 476 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>498 493 814 486 0 0 1680 1027 </string>
+	<string>459 514 814 486 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>211 61 1266 904 0 0 1680 1027 </string>
+	<string>211 59 1259 909 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>83 35 1266 904 0 0 1680 1027 </string>
 	<key>NeverWarnAboutPossibleOverrides</key>
@@ -1359,7 +1359,7 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>disableMetalWhenUnplugged</key>
-	<false/>
+	<true/>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
