@@ -27,8 +27,9 @@ brew "jq"
 brew "lua"
 brew "macvim"
 brew "modd"
+brew "mongodb"
 brew "node", link: false
-brew "postgresql", restart_service: true
+brew "postgresql"
 brew "pre-commit"
 brew "redis"
 brew "sourcekitten"
