@@ -14,6 +14,7 @@ brew "ffmpeg"
 brew "findutils", args: ["with-default-names"]
 brew "fswatch"
 brew "gawk"
+brew "gdb"
 brew "git"
 brew "git-lfs"
 brew "glide"
