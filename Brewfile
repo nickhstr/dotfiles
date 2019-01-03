@@ -30,6 +30,7 @@ brew "lua"
 brew "macvim"
 brew "modd"
 brew "mongodb"
+brew "neofetch"
 brew "node", link: false
 brew "postgresql"
 brew "pre-commit"
