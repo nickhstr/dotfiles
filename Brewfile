@@ -10,6 +10,7 @@ brew "coreutils"
 brew "cppcheck"
 brew "go"
 brew "dep"
+brew "direnv"
 brew "ffmpeg"
 brew "findutils", args: ["with-default-names"]
 brew "fswatch"
@@ -28,9 +29,9 @@ brew "grep", args: ["with-default-names"]
 brew "jq"
 brew "lua"
 brew "macvim"
-brew "modd"
 brew "mongodb"
 brew "neofetch"
+brew "nginx"
 brew "node", link: false
 brew "postgresql"
 brew "pre-commit"
