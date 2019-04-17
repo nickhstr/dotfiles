@@ -9,6 +9,6 @@
 	required = true
 	process = git-lfs filter-process
 [core]
-	editor = mvim -v
+	editor = subl -n -w
 [pager]
 	branch = false
