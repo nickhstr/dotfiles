@@ -13,7 +13,7 @@
 [pager]
 	branch = false
 [mergetool "smerge"]
-	trustExitCode = true
 	cmd = smerge mergetool \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+	trustExitCode = true
 [merge]
 	tool = smerge
