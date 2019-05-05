@@ -137,7 +137,7 @@ source $ZSH/oh-my-zsh.sh
 alias vim='mvim -v'
 alias vi='mvim -v'
 alias nerf='cd ~/twc/web-nerf-localsuite && HOST=web.dev.weather.com yarn dev'
-alias ndb='cd ~/twc/web-nerf-localsuite && HOST=web.dev.weather.com yarn debug'
+alias nerfdb='cd ~/twc/web-nerf-localsuite && HOST=web.dev.weather.com yarn debug'
 alias localpi='~/pi/local_pi.sh'
 alias remotepi='~/pi/remote_pi.sh'
 
