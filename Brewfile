@@ -18,7 +18,7 @@ brew "dep"
 brew "direnv"
 brew "gnutls"
 brew "ffmpeg"
-brew "findutils",
+brew "findutils"
 brew "fswatch"
 brew "gawk"
 brew "gdb"
