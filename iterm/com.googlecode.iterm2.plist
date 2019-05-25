@@ -438,6 +438,11 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>886 245 445 344 0 0 1680 1027 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
@@ -1389,7 +1394,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>577508923.10467005</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>7</integer>
+	<integer>8</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2018,6 +2023,8 @@
 	</dict>
 	<key>NoSyncSearchHistory</key>
 	<array>
+		<string>node</string>
+		<string>dotfiles</string>
 		<string>yarn</string>
 		<string>what does the fox say</string>
 		<string>what doe sthe </string>
@@ -2103,6 +2110,8 @@
 	<key>StatusBarPosition</key>
 	<integer>1</integer>
 	<key>StretchTabsToFillBar</key>
+	<true/>
+	<key>SwapFindNextPrevious</key>
 	<true/>
 	<key>TabStyle</key>
 	<integer>1</integer>
