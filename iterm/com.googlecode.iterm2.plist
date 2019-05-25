@@ -450,7 +450,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>292 493 918 512 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>255 93 1259 861 0 0 1680 1027 </string>
+	<string>211 83 1259 861 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 168 1266 859 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -653,13 +653,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.32549019607843138</real>
+				<real>0.32941176470588235</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.32549019607843138</real>
+				<real>0.32941176470588235</real>
 				<key>Red Component</key>
-				<real>0.32549019607843138</real>
+				<real>0.32941176470588235</real>
 			</dict>
 			<key>Ansi 9 Color</key>
 			<dict>
@@ -1380,6 +1380,10 @@
 			<string></string>
 		</dict>
 	</array>
+	<key>NoSyncBFPRecents</key>
+	<array>
+		<string>Meslo LG M for Powerline</string>
+	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
@@ -1394,7 +1398,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>577508923.10467005</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>8</integer>
+	<integer>16</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2023,9 +2027,10 @@
 	</dict>
 	<key>NoSyncSearchHistory</key>
 	<array>
-		<string>node</string>
-		<string>dotfiles</string>
 		<string>yarn</string>
+		<string>eslint</string>
+		<string>dotfiles</string>
+		<string>node</string>
 		<string>what does the fox say</string>
 		<string>what doe sthe </string>
 		<string>subl</string>
@@ -2094,7 +2099,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-05-24T02:02:47Z</date>
+	<date>2019-05-25T02:02:47Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
