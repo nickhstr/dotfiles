@@ -454,7 +454,7 @@
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>211 83 1259 861 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>83 52 1266 837 0 0 1680 1027 </string>
+	<string>83 18 1259 861 0 0 1680 1027 </string>
 	<key>NeverWarnAboutPossibleOverrides</key>
 	<true/>
 	<key>NeverWarnAboutPossibleOverrides_selection</key>
@@ -1141,7 +1141,7 @@
 			<key>Shortcut</key>
 			<string></string>
 			<key>Show Status Bar</key>
-			<true/>
+			<false/>
 			<key>Silence Bell</key>
 			<false/>
 			<key>Space</key>
@@ -1362,7 +1362,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>599159FC-4342-4617-ACD3-084AB4E564B8</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>28</integer>
+	<integer>29</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2144,7 +2144,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-05-29T21:17:29Z</date>
+	<date>2019-05-30T22:30:33Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
