@@ -17,3 +17,5 @@
 	trustExitCode = true
 [merge]
 	tool = smerge
+[mergetool]
+	keepBackup = false
