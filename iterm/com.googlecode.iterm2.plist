@@ -450,9 +450,9 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>292 493 918 512 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>211 66 1259 860 0 0 1680 1027 </string>
+	<string>913 125 1259 860 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 168 1266 859 0 0 1680 1027 </string>
+	<string>0 507 1259 860 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>233 78 1266 859 0 0 1680 1027 </string>
 	<key>NeverWarnAboutPossibleOverrides</key>
@@ -1364,7 +1364,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>577508923.10467005</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>40</integer>
+	<integer>81</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2015,6 +2015,8 @@
 	<integer>0</integer>
 	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PerPaneBackgroundImage</key>
 	<true/>
 	<key>PointerActions</key>
@@ -2067,7 +2069,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-05-30T02:45:18Z</date>
+	<date>2019-07-21T21:29:35Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
