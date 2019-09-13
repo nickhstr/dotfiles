@@ -5,8 +5,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH=$HOME/.oh-my-zsh
 
 # Go path stuff
-# Override default GOROOT when installing Go with Brew
-export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
@@ -136,8 +134,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim='mvim -v'
 alias vi='mvim -v'
-alias nerf='cd ~/twc/web-nerf-localsuite && HOST=web.dev.weather.com yarn dev'
-alias nerfdb='cd ~/twc/web-nerf-localsuite && HOST=web.dev.weather.com yarn debug'
+alias nerf='HOST=web.dev.weather.com yarn dev'
+alias nerfdb='HOST=web.dev.weather.com yarn debug'
 alias localpi='~/pi/local_pi.sh'
 alias remotepi='~/pi/remote_pi.sh'
 
