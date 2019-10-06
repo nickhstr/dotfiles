@@ -6,6 +6,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Go path stuff
 export GOPATH=$HOME/go
+export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 
