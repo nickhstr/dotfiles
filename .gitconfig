@@ -9,7 +9,7 @@
 	required = true
 	process = git-lfs filter-process
 [core]
-	editor = subl -n -w
+	editor = vim
 [pager]
 	branch = false
 [mergetool "smerge"]
