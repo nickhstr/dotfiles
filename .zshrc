@@ -138,6 +138,7 @@ alias nerf='HOST=web.dev.weather.com yarn dev'
 alias nerfdb='HOST=web.dev.weather.com yarn debug'
 alias localpi='~/pi/local_pi.sh'
 alias remotepi='~/pi/remote_pi.sh'
+alias subl='~/dotfiles/scripts/subl.sh'
 
 DEFAULT_USER=`whoami`
 
