@@ -49,6 +49,7 @@ brew "node"
 brew "pandoc"
 brew "postgresql"
 brew "pre-commit"
+brew "pyenv"
 brew "redis", restart_service: true
 brew "sourcekitten"
 brew "swiftlint"
