@@ -8,3 +8,5 @@ export ZSH=$HOME/.oh-my-zsh
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
+
+export PATH="$HOME/.cargo/bin:$PATH"
