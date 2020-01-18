@@ -12,8 +12,6 @@
 	<integer>1</integer>
 	<key>AppleWindowTabbingMode</key>
 	<string>manual</string>
-	<key>CGFontRenderingFontSmoothingDisabled</key>
-	<false/>
 	<key>CheckTestRelease</key>
 	<false/>
 	<key>Custom Color Presets</key>
@@ -1435,9 +1433,7 @@
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{799, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
-	<string>{841, 448}</string>
-	<key>NSNavPanelExpandedStateForSaveMode</key>
-	<true/>
+	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -1480,19 +1476,19 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>875 260 653 94 0 0 1680 1027 </string>
+	<string>886 245 445 344 0 0 1680 1027 </string>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>859 710 841 470 0 0 2560 1417 </string>
+	<string>440 434 799 448 0 0 1680 1027 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>530 476 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>485 606 928 394 0 0 1680 1027 </string>
+	<string>292 493 918 512 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>657 289 1259 860 0 0 2560 1417 </string>
+	<string>211 83 1259 860 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>83 18 1259 860 0 0 1680 1027 </string>
+	<string>211 83 1259 860 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>233 78 1259 860 0 0 1680 1027 </string>
+	<string>233 78 1266 859 0 0 1680 1027 </string>
 	<key>NeverWarnAboutPossibleOverrides</key>
 	<true/>
 	<key>NeverWarnAboutPossibleOverrides_selection</key>
@@ -1509,20 +1505,20 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.27450981736183167</real>
+				<real>0.0</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.23921568691730499</real>
+				<real>0.0</real>
 				<key>Red Component</key>
-				<real>0.20392157137393951</real>
+				<real>0.0</real>
 			</dict>
 			<key>Ansi 1 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.40392157435417175</real>
+				<real>0.40000000596046448</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
@@ -1535,24 +1531,24 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.58039218187332153</real>
+				<real>0.55294120311737061</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.78039216995239258</real>
+				<real>0.90980392694473267</real>
 				<key>Red Component</key>
-				<real>0.60000002384185791</real>
+				<real>0.76470589637756348</real>
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.38823530077934265</real>
+				<real>0.43921568989753723</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.78431373834609985</real>
+				<real>0.92941176891326904</real>
 				<key>Red Component</key>
 				<real>0.98039215803146362</real>
 			</dict>
@@ -1561,52 +1557,52 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.80000001192092896</real>
+				<real>1</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.60000002384185791</real>
+				<real>0.66666668653488159</real>
 				<key>Red Component</key>
-				<real>0.40000000596046448</real>
+				<real>0.50980395078659058</real>
 			</dict>
 			<key>Ansi 13 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.77254903316497803</real>
+				<real>0.91764706373214722</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.58039218187332153</real>
+				<real>0.57254904508590698</real>
 				<key>Red Component</key>
-				<real>0.77254903316497803</real>
+				<real>0.78039216995239258</real>
 			</dict>
 			<key>Ansi 14 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.70196080207824707</real>
+				<real>1</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.70196080207824707</real>
+				<real>0.86666667461395264</real>
 				<key>Red Component</key>
-				<real>0.37254902720451355</real>
+				<real>0.5372549295425415</real>
 			</dict>
 			<key>Ansi 15 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.91372549533843994</real>
+				<real>1</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.87058824300765991</real>
+				<real>1</real>
 				<key>Red Component</key>
-				<real>0.84705883264541626</real>
+				<real>1</real>
 			</dict>
 			<key>Ansi 2 Color</key>
 			<dict>
@@ -1626,11 +1622,11 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.38823530077934265</real>
+				<real>0.3803921639919281</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.78431373834609985</real>
+				<real>0.78039216995239258</real>
 				<key>Red Component</key>
 				<real>0.98039215803146362</real>
 			</dict>
@@ -1652,24 +1648,24 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.77254903316497803</real>
+				<real>0.7764706015586853</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.58039218187332153</real>
+				<real>0.58431375026702881</real>
 				<key>Red Component</key>
-				<real>0.77254903316497803</real>
+				<real>0.7764706015586853</real>
 			</dict>
 			<key>Ansi 6 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.70196080207824707</real>
+				<real>0.70588237047195435</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.70196080207824707</real>
+				<real>0.70588237047195435</real>
 				<key>Red Component</key>
 				<real>0.37254902720451355</real>
 			</dict>
@@ -1691,26 +1687,26 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.27450981736183167</real>
+				<real>0.20000000298023224</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.23921568691730499</real>
+				<real>0.20000000298023224</real>
 				<key>Red Component</key>
-				<real>0.20392157137393951</real>
+				<real>0.20000000298023224</real>
 			</dict>
 			<key>Ansi 9 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.40392157435417175</real>
+				<real>0.43921568989753723</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.37254902720451355</real>
+				<real>0.32549020648002625</real>
 				<key>Red Component</key>
-				<real>0.92549020051956177</real>
+				<real>1</real>
 			</dict>
 			<key>BM Growl</key>
 			<true/>
@@ -1719,13 +1715,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.10980392156862745</real>
+				<real>0.16470588743686676</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.10196078431372549</real>
+				<real>0.14509804546833038</real>
 				<key>Red Component</key>
-				<real>0.090196078431372548</real>
+				<real>0.12156862765550613</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -1753,13 +1749,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.15686270594596863</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.15686267614364624</real>
 				<key>Red Component</key>
-				<real>0.99999600648880005</real>
+				<real>0.7764706015586853</real>
 			</dict>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -1808,7 +1804,7 @@
 				<key>Green Component</key>
 				<real>1</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.93333333730697632</real>
 			</dict>
 			<key>Cursor Type</key>
 			<integer>2</integer>
@@ -1829,13 +1825,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.91372549533843994</real>
+				<real>1</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.87058824300765991</real>
+				<real>1</real>
 				<key>Red Component</key>
-				<real>0.84705883264541626</real>
+				<real>0.93333333730697632</real>
 			</dict>
 			<key>Guid</key>
 			<string>AB2F7150-38A1-4EC0-94B6-DA1F80B7A18D</string>
@@ -2126,13 +2122,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.80000001192092896</real>
+				<real>0.73423302173614502</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.60000002384185791</real>
+				<real>0.35916060209274292</real>
 				<key>Red Component</key>
-				<real>0.40000000596046448</real>
+				<real>0.0</real>
 			</dict>
 			<key>Mouse Reporting</key>
 			<true/>
@@ -2165,26 +2161,26 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.91372549533843994</real>
+				<real>0.30588233470916748</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.87058824300765991</real>
+				<real>0.30588233470916748</real>
 				<key>Red Component</key>
-				<real>0.84705883264541626</real>
+				<real>0.30588233470916748</real>
 			</dict>
 			<key>Selection Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.50980395078659058</real>
+				<real>0.89803916215896606</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.45098039507865906</real>
+				<real>0.89803928136825562</real>
 				<key>Red Component</key>
-				<real>0.39215686917304993</real>
+				<real>0.89803928136825562</real>
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
@@ -2399,131 +2395,43 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.6</string>
-		<string>3.3.2</string>
+		<string>3.3.0beta8</string>
 		<string>3.3.1</string>
 		<string>3.3.3</string>
 		<string>3.3.5</string>
 		<string>3.3.7</string>
 		<string>3.3.0</string>
-		<string>3.3.0beta8</string>
+		<string>3.3.2</string>
 		<string>3.3.4</string>
+	</array>
+	<key>NoSyncBFPRecents</key>
+	<array>
+		<string>Meslo LG S for Powerline</string>
+		<string>Meslo LG M for Powerline</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {2560, 1440}}</string>
+		<string>{{0, 0}, {1680, 1050}}</string>
 		<key>topLeft</key>
-		<string>{489, 1047}</string>
+		<string>{331, 765}</string>
 	</dict>
-	<key>NoSyncHaveRequestedFullDiskAccess</key>
-	<true/>
-	<key>NoSyncHaveUsedCopyMode</key>
-	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>599159FC-4342-4617-ACD3-084AB4E564B8</string>
+	<string>7F56A6D1-C7DA-4D87-B64B-D0B85E17EF0F</string>
+	<key>NoSyncLastTipTime</key>
+	<real>577508923.10467005</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>223</integer>
+	<integer>256</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncNextAnnoyanceTime</key>
+	<real>580514516.86979795</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
-	<key>NoSyncPermissionToShowTip</key>
-	<false/>
-	<key>NoSyncRecordedVariableNames</key>
-	<dict>
-		<key>1</key>
-		<array>
-			<string>session.jobName</string>
-			<string>session.id</string>
-			<string>session.badge</string>
-			<string>session.profileName</string>
-			<string>session.name</string>
-			<string>session.terminalIconName</string>
-			<string>session.tmuxClientName</string>
-			<string>session.termid</string>
-			<string>session.triggerName</string>
-			<string>session.tmuxWindowPane</string>
-			<string>session.hostname</string>
-			<string>session.username</string>
-			<string>session.tmuxStatusRight</string>
-			<string>session.tmuxRole</string>
-			<string>session.path</string>
-			<string>session.creationTimeString</string>
-			<string>session.rows</string>
-			<string>session.tmuxWindowTitle</string>
-			<string>session.autoLogId</string>
-			<string>session.tty</string>
-			<string>session.autoName</string>
-			<string>session.terminalWindowName</string>
-			<string>iterm2</string>
-			<string>session.tmuxStatusLeft</string>
-			<string>session.autoNameFormat</string>
-			<string>session.jobPid</string>
-			<string>session.lastCommand</string>
-			<string>session.mouseReportingMode</string>
-			<string>session.pid</string>
-			<string>session.presentationName</string>
-			<string>session.columns</string>
-		</array>
-		<key>16</key>
-		<array>
-			<string>currentTab.currentSession.session.mouseReportingMode</string>
-			<string>currentTab.currentSession.session.tty</string>
-			<string>currentTab.currentSession.session.username</string>
-			<string>currentTab.currentSession.session.name</string>
-			<string>currentTab.currentSession.session.termid</string>
-			<string>currentTab.currentSession.session.hostname</string>
-			<string>currentTab</string>
-			<string>currentTab.currentSession.session.pid</string>
-			<string>currentTab.currentSession.session.path</string>
-			<string>currentTab.currentSession</string>
-			<string>titleOverride</string>
-			<string>currentTab.currentSession.session.terminalWindowName</string>
-			<string>currentTab.currentSession.session.autoName</string>
-			<string>currentTab.currentSession.session.jobPid</string>
-			<string>currentTab.currentSession.session.autoNameFormat</string>
-			<string>iterm2</string>
-			<string>currentTab.currentSession.session.presentationName</string>
-			<string>currentTab.currentSession.session.columns</string>
-			<string>currentTab.currentSession.session.terminalIconName</string>
-			<string>currentTab.currentSession.session.jobName</string>
-			<string>currentTab.currentSession.session.rows</string>
-		</array>
-		<key>2</key>
-		<array>
-			<string>currentSession.session.jobName</string>
-			<string>currentSession.session.termid</string>
-			<string>currentSession.session.pid</string>
-			<string>currentSession.session.hostname</string>
-			<string>currentSession.session.name</string>
-			<string>currentSession.session.presentationName</string>
-			<string>currentSession.session.jobPid</string>
-			<string>currentSession.session.username</string>
-			<string>currentSession.session.mouseReportingMode</string>
-			<string>currentSession.session.terminalIconName</string>
-			<string>currentSession.session.rows</string>
-			<string>titleOverride</string>
-			<string>currentSession.session.terminalWindowName</string>
-			<string>currentSession.session.autoNameFormat</string>
-			<string>currentSession.session.path</string>
-			<string>currentSession.session.tty</string>
-			<string>iterm2</string>
-			<string>currentSession.session.autoName</string>
-			<string>tmuxWindow</string>
-			<string>currentSession</string>
-			<string>currentSession.session.columns</string>
-		</array>
-		<key>4</key>
-		<array>
-			<string>pid</string>
-			<string>localhostName</string>
-			<string>effectiveTheme</string>
-		</array>
-	</dict>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -2930,7 +2838,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>titleOverride</string>
+				<string>id</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2946,7 +2854,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>id</string>
+				<string>titleOverride</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3075,19 +2983,19 @@
 			</dict>
 			<dict>
 				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>window</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
 				<false/>
 				<key>name</key>
 				<string>window</string>
 				<key>nonterminalContext</key>
 				<integer>16</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>window</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
 			</dict>
 			<dict>
 				<key>isTerminal</key>
@@ -3147,6 +3055,14 @@
 			</dict>
 			<dict>
 				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.path</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
 				<false/>
 				<key>name</key>
 				<string>iterm2</string>
@@ -3157,7 +3073,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.path</string>
+				<string>titleOverrideFormat</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3174,14 +3090,6 @@
 				<true/>
 				<key>name</key>
 				<string>currentSession.terminalWindowName</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>titleOverrideFormat</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3246,36 +3154,35 @@
 			</dict>
 		</array>
 	</dict>
-	<key>NoSyncSaveDocumentAsPathSet_saveDocumentAs:</key>
-	<true/>
 	<key>NoSyncSearchHistory</key>
 	<array>
-		<string>chart</string>
-		<string>redis: true</string>
-		<string>getsunv3locationpointurl</string>
-		<string>getu</string>
-		<string>pattern</string>
-		<string>wxu-main-menu</string>
-		<string>wxu-main-meun</string>
-		<string>wxu-meta</string>
-		<string>context params:</string>
-		<string>getlocaleentitiesurlconfig</string>
+		<string>-coverprofile</string>
+		<string>error</string>
+		<string>wxu</string>
+		<string>modd</string>
+		<string>yarn</string>
+		<string>eslint</string>
+		<string>dotfiles</string>
+		<string>node</string>
+		<string>what does the fox say</string>
+		<string>what doe sthe </string>
 	</array>
 	<key>NoSyncSearchHistory2</key>
 	<array>
-		<string>branch</string>
-		<string>webpack</string>
-		<string>watson-white-logo</string>
-		<string>watson-white-logio</string>
-		<string>cache</string>
-		<string>redis</string>
-		<string>redx</string>
-		<string>default</string>
-		<string>timeout</string>
-		<string>moonracer-api</string>
+		<string>import</string>
+		<string>meslo</string>
+		<string>activate</string>
+		<string>@types/lodash</string>
+		<string>@types/lods</string>
+		<string>@types//</string>
+		<string>gopath</string>
+		<string>error</string>
+		<string>global</string>
 	</array>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>531543205.96834302</real>
+	<real>577416561.13499105</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
@@ -3322,21 +3229,23 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/Nick.Hester@ibm.com/dotfiles/iterm</string>
+	<string>~/dotfiles/iterm</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
 	<false/>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final_new.xml?shard=35</string>
+	<string>https://iterm2.com/appcasts/final_new.xml?shard=12</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-01-17T20:56:38Z</date>
+	<date>2020-01-18T17:20:12Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
