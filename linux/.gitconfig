@@ -1,0 +1,20 @@
+[user]
+    name = nickhstr
+    email = nickhstr@gmail.com
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    required = true
+    process = git-lfs filter-process
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+[pager]
+    branch = false
+[mergetool "smerge"]
+    cmd = smerge mergetool \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+    trustExitCode = true
+[merge]
+    tool = smerge
+[mergetool]
+    keepBackup = false
