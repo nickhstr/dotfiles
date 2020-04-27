@@ -154,6 +154,7 @@ eval "$(pyenv init -)"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 export MANPATH="/usr/local/opt/findutils/share/man:$MANPATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
 alias ls='ls --color=auto'
 
 # direnv setup
