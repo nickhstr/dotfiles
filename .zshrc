@@ -148,7 +148,7 @@ DEFAULT_USER=`whoami`
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # fnm
-  eval "$(fnm env --multi --use-on-cd)"
+eval "$(fnm env --use-on-cd)"
 
 # Python version management
 eval "$(pyenv init -)"

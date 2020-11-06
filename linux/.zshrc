@@ -107,7 +107,7 @@ source $ZSH/oh-my-zsh.sh
 
 # fnm
 export PATH=/home/nickhstr/.fnm:$PATH
-eval "`fnm env --multi --use-on-cd`"
+eval "`fnm env --use-on-cd`"
 
 # x-server exports for wsl 2
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
