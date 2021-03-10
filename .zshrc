@@ -14,7 +14,6 @@ export PATH=$PATH:$GOROOT/bin
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 
 ZSH_THEME="robbyrussell"
-DISABLE_MAGIC_FUNCTIONS=true
 
 # Needed for Pure theme
 # ZSH_THEME=""
