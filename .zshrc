@@ -151,7 +151,7 @@ DEFAULT_USER=`whoami`
 eval "$(fnm env --use-on-cd)"
 
 # Python version management
-eval "$(pyenv init -)"
+# eval "$(pyenv init -)"
 
 # GNU Tools stuff
 export MANPATH="/usr/local/opt/coreutils/share/man:$MANPATH"
